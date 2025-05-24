@@ -1,5 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
+// pages/index.tsx
+import React from 'react';
+
+const HomePage = () => {
+  return (
+    <div>
+      <h1>Selamat Datang di Marketplace Anda</h1>
+      <p>Ini adalah halaman utama dari marketplace Anda.</p>
+    </div>
+  );
+};
+
+export default HomePage;
+
 
 export default function Home() {
   return (
